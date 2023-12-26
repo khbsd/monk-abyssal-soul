@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?><contentList>
+    <!-- Subclass name and description -->
     <content contentuid="KHB_wayOfFarSoul" version="1">Way of the Far Soul</content>
     <content contentuid="KHB_wayOfFarSoulDescription" version="1">Steel your soul and venture into its depths.</content>
+
+    <!-- Shouts -->
+    <content contentuid="KHB_lesserMindsDisplayName" version="1">Lesser Minds</content>
+    <content contentuid="KHB_lesserMindsShoutDescription" version="1">Your brain has grown ears, or at least that's what it feels like. You may wiggle them with a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;, casting &lt;b&gt;Detect Thoughts&lt;/b&gt; and granting yourself &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt; against creatures with lower &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; than you.</content>
+    <content contentuid="KHB_lesserMindsPassiveDescription" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt; against creatures with lower &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; than you.</content>
+
+    <!-- Passives -->
+    <content contentuid="KHB_UndertowDisplayName" version="1">Undertow</content>
+    <content contentuid="KHB_UndertowDescription" version="1">Your strikes instill the chill and pressure of the deep. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="KHB_strangleMindDisplayName" version="1">Stranglemind</content>
+    <content contentuid="KHB_strangleMindDescription" version="1">Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="KHB_strangleMindExtraDescription" version="1">&lt;i&gt;"The mind has to wrap around the neck."&lt;br&gt;&lt;br&gt;-Michael "Scranton Strangler" Scott&lt;/i&gt;</content>
+    <content contentuid="KHB_alienIntellectDisplayName" version="1">Alien Intellect</content>
+    <content contentuid="KHB_alienIntellectDescription" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
+    <content contentuid="KHB_alienIntellectLv2Description" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 12 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
+
+    <!-- Attacks -->
+    <content contentuid="KHB_madnessAndMayhemDisplayName" version="1">Flurry of Madness and Mayhem</content>
+    <content contentuid="KHB_madnessAndMayhemDescription" version="1">Punch twice in quick succession, and let your unsettling aura possibly inflict &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; in your target.</content>
+    
+
+
 </contentList>

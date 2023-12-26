@@ -35,7 +35,16 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="FarSoul"/>
                     <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk"/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_chillingUndertow_Passive;KHB_strangleMind_Passive;KHB_alienIntellect"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_Undertow_Passive;KHB_strangleMind_Passive;KHB_alienIntellect;KHB_LesserMinds_Unlock"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
+                    <attribute id="UUID" type="guid" value="634a189e-d322-41a2-9a4f-727a631b0b26"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="FarSoul"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_MadnessAndMayhem_Unlock"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="634a189e-d322-41a2-9a4f-727a631b0b26"/>
