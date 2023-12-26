@@ -25,7 +25,7 @@
                                     <attribute id="Object" type="guid" value="bf46d73f-d406-4cb8-9a1d-e6e758ca02c7"/>
                                 </node>
                                 <node id="SubClass">
-                                    <attribute id="Object" type="guid" value="4a869509-5807-4580-b570-0bf9fc2cc400"/>
+                                    <attribute id="Object" type="guid" value="5f4038e9-ba78-4627-a7b2-6a4c27586244"/>
                                 </node>
                             </children>
                         </node>
@@ -37,7 +37,7 @@
                     <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_palpativeHeat_Passive;KHB_coolingTouch_Passive;KHB_fertileEarth_Passive;KHB_gentleWind_Passive;KHB_caretakerCaress_Passive;KHB_caretakerTongue_Passive;KHB_bastionOfEarth;KHB_charmingFingers"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="b69a1d7a-174e-46fd-979d-70b34421ce02"/>
                 </node>
                 <node id="Progression">
@@ -45,7 +45,7 @@
                     <attribute id="Name" type="LSString" value="Springtime"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_charmEntitylv1_Passive;PV_HandsOfHealingUnlock"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="54643259-a974-4197-9238-a24a61e78d58"/>
                 </node>
                 <node id="Progression">
@@ -54,7 +54,7 @@
                     <attribute id="PassivesRemoved" type="LSString" value="KHB_charmEntitylv1_Passive;PV_HandsOfHealingUnlock"/>
                     <attribute id="PassivesAdded" type="LSString" value="PV_HandsOfHealingUnlock_2;KHB_charmEntitylv2_Passive"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="10abbd80-09c4-419c-aad5-b41aa97a8c64"/>
                 </node>
                 <node id="Progression">
@@ -62,7 +62,7 @@
                     <attribute id="Name" type="LSString" value="Springtime"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_HandsOfHarmUnlock;PV_HandOfUltimateMercyUnlock"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="18be2aeb-3c71-4087-be76-df381359b0e2"/>
                 </node>
                 <node id="Progression">
@@ -70,7 +70,7 @@
                     <attribute id="Name" type="LSString" value="Springtime"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_chaffFromWheat;KHB_skilledHands_Passive;"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="c5306dad-68bf-4d2b-8cba-b153fd49ccb4"/>
+                    <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="791c8fb5-1cf9-4c30-8309-e4f1185c7e26"/>
                 </node>
             </children>
