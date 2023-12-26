@@ -1,7 +1,9 @@
 
 {
-    "RequiredVersion": 4,
-    "ModTable": "abyssoul",
-    "FeatureFlags": ["Lua"]
+    "RequiredVersion": 1,
+    "ModTable": "FarSoul",
+    "FeatureFlags": [
+        "Osiris",
+        "Lua"
+    ]
 }
-                    
