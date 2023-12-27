@@ -1,4 +1,4 @@
-new entry "AURA_OF_THE_DEPTHS"
+new entry "KHB_AURA_OF_DEPTHS"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h8aa4cdf9ga9e7g46d5gb7a1gb32901defe3c;2"
@@ -13,7 +13,7 @@ data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(max(1, Cause.CharismaMo
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-new entry "AURA_OF_THE_DEPTHS_BUFF"
+new entry "KHB_AURA_OF_DEPTHS_BUFF"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hfa4ad8dfge9efg4f7fg8bc2g664c49a83964;2"
@@ -22,7 +22,7 @@ data "DescriptionParams" "Distance(9);DealDamage(max(1,Cause.CharismaModifier), 
 data "Icon" "Action_Paladin_AuraOfHate"
 data "StackId" "AURA_OF_HATE"
 data "StackPriority" "5"
-data "Boosts" "ApplyStatus(AURA_OF_THE_DEPTHS_BUFF, context.Observer)"
+data "Boosts" "Resistance(Vulnerable, Psychic)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "ApplyEffect" "d21494e5-5c30-4a69-85ef-75a785e71105"
