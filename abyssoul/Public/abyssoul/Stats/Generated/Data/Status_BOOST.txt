@@ -8,7 +8,7 @@ data "Icon" "Action_Paladin_AuraOfHate"
 data "StackId" "AURA_OF_THE_DEPTHS"
 data "StackPriority" "10"
 data "AuraRadius" "9"
-data "AuraStatuses" "IF(not Self() and not Ally()):ApplyStatus(AURA_OF_DEPTHS_BUFF, 100, -1)"
+data "AuraStatuses" "IF(not Self() and not Ally()):ApplyStatus(KHB_AURA_OF_DEPTHS_BUFF, 100, -1)"
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting"
 data "StatusGroups" "SG_RemoveOnRespec"
 
