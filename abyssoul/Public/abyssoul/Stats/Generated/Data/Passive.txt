@@ -28,7 +28,7 @@ data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not HasShieldEquipped(context.Source)"
-data "Boosts" "ACOverrideFormula(10,true,Intelligence,Wisdom);Resistance(Resistant, Cold);Resistance(Resistant, Psychic)"
+data "Boosts" "ACOverrideFormula(10,true,Intelligence,Wisdom);Resistance(Cold, Resistant);Resistance(Psychic, Resistant)"
 
 new entry "KHB_alienIntellectLv2"
 type "PassiveData"
@@ -38,7 +38,7 @@ data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not HasShieldEquipped(context.Source)"
-data "Boosts" "ACOverrideFormula(12,true,Intelligence,Wisdom);Resistance(Immune, Cold);Resistance(Immune, Psychic)"
+data "Boosts" "ACOverrideFormula(12,true,Intelligence,Wisdom);Resistance(Cold, Immune);Resistance(Psychic, Immune)"
 
 
 new entry "KHB_LesserMinds_Advantage"
