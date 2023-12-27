@@ -44,7 +44,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="FarSoul"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_MadnessAndMayhem_Unlock"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_MadnessAndMayhem_Unlock;KHB_AURA_OF_THE_DEPTHS_Unlock"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="aeeb8002-c835-4761-aaa0-660cd4f8e92c"/>
