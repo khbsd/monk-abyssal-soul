@@ -1,7 +1,7 @@
 
 {
     "RequiredVersion": 1,
-    "ModTable": "FarSoul",
+    "ModTable": "HadalSoul",
     "FeatureFlags": [
         "Osiris",
         "Lua"

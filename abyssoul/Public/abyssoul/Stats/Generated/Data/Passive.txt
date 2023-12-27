@@ -36,9 +36,9 @@ data "DisplayName" "KHB_alienIntellectDisplayName;2"
 data "Description" "KHB_alienIntellectLv2Description;5"
 data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
-data "BoostContext" "OnEquip;OnCreate"
+data "BoostContext" "OnEquip; OnCreate"
 data "BoostConditions" "not HasShieldEquipped(context.Source)"
-data "Boosts" "ACOverrideFormula(12,true,Intelligence,Wisdom);Resistance(Cold, Immune);Resistance(Psychic, Immune)"
+data "Boosts" "ACOverrideFormula(12,true,Intelligence, Wisdom);Resistance(Cold, Immune);Resistance(Psychic, Immune)"
 
 
 new entry "KHB_LesserMinds_Advantage"
@@ -47,6 +47,26 @@ data "DisplayName" "KHB_lesserMindsDisplayName;1"
 data "Description" "KHB_lesserMindsPassiveDescription;2"
 data "BoostConditions" "TargetIntelligenceGreaterThanSource()"
 data "Boosts" "Advantage(Skill, Insight)"
+
+
+new entry "KHB_AphoticEyes_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_aphoticEyesDisplayName"
+data "Description" "KHB_aphoticEyesDescription"
+data "ExtraDescription" "KHB_aphoticEyesExtraDescription"
+data "DescriptionParams" "Distance(12)"
+data "StatsFunctorContext" "OnEquip; OnCreate"
+data "StatsFunctors" "KHB_APHOTICEYES"
+data "Boosts" "Advantage(Skill, Perception);"
+
+
+new entry "KHB_SonarReach_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_sonarReachDisplayName"
+data "Description" "KHB_sonarReachDescription"
+data "DescriptionParams" "Distance(2)"
+data "Properties" "Hidden"
+data "Boosts" "ModifyTargetRadius(Override, 2)"
 
 
 new entry "KHB_LesserMinds_Unlock"
