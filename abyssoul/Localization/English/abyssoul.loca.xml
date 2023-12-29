@@ -29,6 +29,9 @@
     <content contentuid="KHB_aphoticEyesDisplayName" version="1">Aphotic Eyes</content>
     <content contentuid="KHB_aphoticEyesDescription" version="1">Whoever coined the term "their eyes lit up" has never met you. You spent so long in the dark, your eyes absorb light and sound like a black hole. You gain the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures up to [1] away.</content>
     <content contentuid="KHB_aphoticEyesExtraDescription" version="1"></content>
+    <content contentuid="KHB_coldShockSyndromeDisplayName" version="1">Cold Shock Syndrome</content>
+    <content contentuid="KHB_coldShockSyndromeDescription" version="1">The hadal temperatures you're used to are cold enough to stop weaker landlubbers' hearts. When you bring a creature down to fewer than [2] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
+    <content contentuid="KHB_aphoticEyesDisplayName" version="1">Aphotic Eyes</content>
 
 
     <!-- Attacks -->
