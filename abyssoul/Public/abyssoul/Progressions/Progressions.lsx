@@ -70,8 +70,8 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="FarSoul"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="KHB_alienIntellect"/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_coldShockSyndrome;KHB_alienIntellectLv2;KHB_theBends_Passive"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="KHB_Undertow_Passive;KHB_strangleMind_Passive;KHB_alienIntellect;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_coldShockSyndrome;KHB_alienIntellectLv2;KHB_theBends_Passive;KHB_UndertowLv2_Passive;KHB_strangleMindLv2_Passive;"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="cc01761c-3cc4-4b77-aff2-acbf9d846221"/>
