@@ -31,7 +31,9 @@
     <content contentuid="KHB_aphoticEyesExtraDescription" version="1"></content>
     <content contentuid="KHB_coldShockSyndromeDisplayName" version="1">Cold Shock Syndrome</content>
     <content contentuid="KHB_coldShockSyndromeDescription" version="1">The hadal temperatures you're used to are cold enough to stop weaker landlubbers' hearts. When you bring a creature down to fewer than [2] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
-    <content contentuid="KHB_aphoticEyesDisplayName" version="1">Aphotic Eyes</content>
+    <content contentuid="KHB_theBendsDisplayName" version="1">The Bends</content>
+    <content contentuid="KHB_theBendsDescription" version="1"> not the radiohead album</content>
+    
 
 
     <!-- Attacks -->

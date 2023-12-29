@@ -11,6 +11,16 @@ data "StatsFunctors" "Kill();CreateExplosion(KHB_Projectile_ColdShockSyndrome)"
 data "ToggleGroup" "NonLethal"
 data "Boosts" "DealDamage(IntelligenceModifier * 2, Cold);IgnoreResistance(Cold, Resistant);IgnoreResistance(Cold, Immune);IgnoreResistance(Psychic, Resistant);IgnoreResistance(Psychic, Immune)"
 
+new entry "KHB_theBends_Passive"
+type "PassiveData"
+data "DisplayName" "KHB_theBendsDisplayName;2"
+data "Description" "KHB_theBendsDescription;5"
+data "DescriptionParams" "DealDamage(1d4+CharismaModifier, Cold)"
+data "Icon" "GenericIcon_DamageType_Cold"
+data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
+data "Boosts" "DealDamage(IntelligenceModifier * 2, Cold);IF(IsMeleeUnarmedAttack()):IgnoreResistance(Cold, Resistant);IF(IsMeleeUnarmedAttack()):IgnoreResistance(Cold, Immune);IF(IsMeleeUnarmedAttack()):IgnoreResistance(Psychic, Resistant);IF(IsMeleeUnarmedAttack()):IgnoreResistance(Psychic, Immune)"
+data "ToggleGroup" "Manifestation"
+
 
 new entry "KHB_Undertow_Passive"
 type "PassiveData"
