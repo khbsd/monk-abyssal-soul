@@ -23,7 +23,7 @@
     <content contentuid="KHB_strangleMindExtraDescription" version="1">&lt;i&gt;"The mind has to wrap around the neck."&lt;br&gt;&lt;br&gt;-Michael "Scranton Strangler" Scott&lt;/i&gt;</content>
     <content contentuid="KHB_alienIntellectDisplayName" version="1">Alien Intellect</content>
     <content contentuid="KHB_alienIntellectDescription" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
-    <content contentuid="KHB_alienIntellectLv2Description" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 12 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
+    <content contentuid="KHB_alienIntellectLv2Description" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 11 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
     <content contentuid="KHB_sonarReachDisplayName" version="1">Sonar's Reach</content>
     <content contentuid="KHB_sonarReachDescription" version="1">Your body is able to move farther and more efficiently due to its enhanced sonar-like proprioception, increasing your Unarmed Melee Attack range by [1].</content>
     <content contentuid="KHB_aphoticEyesDisplayName" version="1">Aphotic Eyes</content>
@@ -32,9 +32,7 @@
     <content contentuid="KHB_coldShockSyndromeDisplayName" version="1">Cold Shock Syndrome</content>
     <content contentuid="KHB_coldShockSyndromeDescription" version="1">The hadal temperatures you're used to are cold enough to stop weaker landlubbers' hearts. When you bring a creature down to fewer than [2] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
     <content contentuid="KHB_theBendsDisplayName" version="1">The Bends</content>
-    <content contentuid="KHB_theBendsDescription" version="1"> not the radiohead album</content>
-    
-
+    <content contentuid="KHB_theBendsDescription" version="1">not the radiohead album</content>
 
     <!-- Attacks -->
     <content contentuid="KHB_madnessAndMayhemDisplayName" version="1">Flurry of Madness and Mayhem</content>
