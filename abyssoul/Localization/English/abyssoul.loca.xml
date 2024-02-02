@@ -12,8 +12,6 @@
     <content contentuid="KHB_depthAuraDisplayName" version="1">Aura of the Depths</content>
     <content contentuid="KHB_depthAuraDescription" version="1">"It's like a smell, but in your head." That's how people describe your deeply (get it?) unsettling aura. Creatures other than you within [1] that you are not allied with become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic Damage.</content>
     <content contentuid="KHB_depthAuraEffectDescription" version="1">This creature has had its mental defences reduced, and is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic Damage.</content>
-    
-
 
     <!-- Passives -->
     <content contentuid="KHB_UndertowDisplayName" version="1">Undertow</content>
