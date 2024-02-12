@@ -129,3 +129,8 @@ new entry "KHB_AURA_OF_DEPTHS_Unlock"
 type "PassiveData"
 data "Properties" "Hidden"
 data "Boosts" "UnlockSpell(KHB_Shout_AuraOfDepths)"
+
+new entry "KHB_Levitation_Unlock"
+type "PassiveData"
+data "Properties" "Hidden"
+data "Boosts" "UnlockSpell(KHB_Levitation_Projectile)"
