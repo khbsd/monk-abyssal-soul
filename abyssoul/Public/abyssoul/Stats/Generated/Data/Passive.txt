@@ -1,3 +1,15 @@
+new entry "MartialArts_SynapticStrikes"
+type "PassiveData"
+data "DisplayName" "hd8a574dage906g4af9g92f1g1c532d7e9d70;2"
+// Attacks with <LSTag Tooltip="MonkWeapon">Monk Weapons</LSTag> and unarmed attacks scale with your <LSTag Tooltip="Dexterity">Dexterity</LSTag> instead of your <LSTag Tooltip="Strength">Strength</LSTag> if your Dexterity is higher.
+data "Description" "h36aee87bgef1eg4ac9g882ag30aa1b4c2205;4"
+data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
+data "Properties" "Highlighted"
+data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
+data "BoostConditions" "IsDexterityGreaterThanStrength()"
+data "Boosts" "MonkWeaponAttackOverride()"
+
+
 new entry "KHB_cullTheWeak_Passive"
 type "PassiveData"
 data "DisplayName" "h4c2ba204g19acg477cg98e9g1d755242996e;2"
@@ -6,7 +18,7 @@ data "DescriptionParams" "DealDamage(1d4,Psychic)"
 data "Icon" "TadpoleSuperPower_CullTheWeak"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultOn"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasLessHPThanPlayerLevel() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and Enemy() and not Tagged('TADPOLE_POWERS_BLOCKED',context.Source) and not SpellId('KHB_cullTheWeak_Projectile')"
+data "Conditions" "HasLessHPThanPlayerLevel() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and Enemy() and not SpellId('KHB_cullTheWeak_Projectile')"
 data "StatsFunctors" "Kill();ApplyStatus(PASSIVE_CULL_THE_WEAK,100,1);CreateExplosion(KHB_cullTheWeak_Projectile)"
 data "ToggleGroup" "NonLethal"
 
