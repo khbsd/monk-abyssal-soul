@@ -6,7 +6,7 @@ data "Description" "h36aee87bgef1eg4ac9g882ag30aa1b4c2205;4"
 data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
 data "Properties" "Highlighted"
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
-data "BoostConditions" "IsDexterityGreaterThanStrength()"
+data "BoostConditions" "IsIntelligenceGreaterThanStrength()"
 data "Boosts" "MonkWeaponAttackOverride()"
 
 
@@ -83,7 +83,7 @@ data "Description" "KHB_alienIntellectDescription;5"
 data "Icon" "Spell_IntellectDevourer_DevourIntellect"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "not HasShieldEquipped(context.Source)"
+data "BoostConditions" "not HasShieldEquipped(context.Source) or not WearingArmor(context.Source)"
 data "Boosts" "ACOverrideFormula(10, true, Intelligence, Wisdom);Resistance(Cold, Resistant);Resistance(Psychic, Resistant)"
 
 new entry "KHB_alienIntellectLv2_Passive"
@@ -115,16 +115,6 @@ data "Icon" "TadpoleSuperPower_StageFright_2"
 data "StatsFunctorContext" "OnEquip; OnCreate"
 data "StatsFunctors" "ApplyStatus(KHB_APHOTICEYES, 100, -1)"
 data "Boosts" "Advantage(Skill, Perception)"
-
-
-new entry "KHB_SonarReach_Passive"
-type "PassiveData"
-data "DisplayName" "KHB_sonarReachDisplayName"
-data "Description" "KHB_sonarReachDescription"
-data "DescriptionParams" "Distance(0.5)"
-data "Icon" "TadpoleSuperPower_Repulsor_2"
-data "Properties" "Hidden"
-data "Boosts" "ModifyTargetRadius(Override, 2)"
 
 
 new entry "KHB_LesserMinds_Unlock"
