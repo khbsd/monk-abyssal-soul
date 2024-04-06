@@ -123,7 +123,7 @@ data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
 data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
 data "Icon" "TadpoleSuperPower_Repulsor_2"
 data "Properties" "Highlighted"
-data "Conditions" "not IsMiss() and Enemy() and IsMeleeUnarmedAttack())"
+data "Conditions" "not IsMiss() and Enemy() and IsMeleeUnarmedAttack() and not HasStatus('KHB_MUSCULAR_HYDROSTATS_VULN', context.Target)"
 data "StatsFunctorContext" "OnAttack"
 data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_VULN, 100, 2);"
 
