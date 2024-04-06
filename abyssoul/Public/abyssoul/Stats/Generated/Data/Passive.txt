@@ -136,3 +136,8 @@ new entry "KHB_Levitation_Unlock"
 type "PassiveData"
 data "Properties" "Hidden"
 data "Boosts" "UnlockSpell(KHB_Levitation_Projectile)"
+
+new entry "KHB_MuscularHydrostats_Unlock"
+type "PassiveData"
+data "Properties" "Hidden"
+data "Boosts" "UnlockSpell(KHB_Shout_MuscularHydrostats)"
