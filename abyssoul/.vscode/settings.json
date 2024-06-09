@@ -1,0 +1,18 @@
+{
+    "bg3ModHelper.hoverMaxFiles": 10,
+    "bg3ModHelper.hoverEnabled": true,
+    "bg3ModHelper.hoverShowPath": true,
+    "bg3ModHelper.maxCacheSize": 1000,
+    "bg3ModHelper.rootModPath": "w:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\abyssoul\\abyssoul",
+    "bg3ModHelper.modDestPath": "C:\\Users\\atoka\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+    "bg3ModHelper.lslibPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
+    "bg3ModHelper.autoLaunchOnPack": false,
+    "bg3ModHelper.zipOnPack": false,
+    "bg3ModHelper.launchContinueGame": true,
+    "bg3ModHelper.addHandlesToAllLocas": true,
+    "bg3ModHelper.excludedFiles": [],
+    "bg3ModHelper.gameInstallLocation": "W:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3",
+    "bg3ModHelper.modName": "abyssoul",
+    "bg3ModHelper.excludeHidden": true,
+    "bg3ModHelper.packingPriority": 0
+}
