@@ -35,7 +35,8 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="FarSoul"/>
                     <attribute id="PassivesRemoved" type="LSString" value="UnarmoredDefense_Monk"/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_Undertow_Passive;KHB_strangleMind_Passive;KHB_alienIntellect_Passive;KHB_MuscularHydrostats_Unlock;KHB_LesserMinds_Unlock"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_Undertow_Passive;KHB_strangleMind_Passive;KHB_alienIntellect_Passive;KHB_MuscularHydrostats_Unlock;KHB_LesserMinds_Unlock;KHB_Shout_GrapplingTentacles_Unlock"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="634a189e-d322-41a2-9a4f-727a631b0b26"/>
@@ -44,7 +45,7 @@
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="FarSoul"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_MadnessAndMayhem_Unlock"/>
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_MadnessAndMayhem_Unlock;KHB_HadalSpeciation"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
                     <attribute id="UUID" type="guid" value="cb614e39-dd9b-4943-898f-aa9bf448eef5"/>
@@ -61,7 +62,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="FarSoul"/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value="UnarmoredMovement_DifficultTerrain"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_Hydrodynamics_Passive;KHB_cullTheWeak_Passive"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>

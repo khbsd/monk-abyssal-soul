@@ -48,9 +48,6 @@ data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('SEE_INVISIBILITY')):ApplyStatu
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "d8452a11-7c66-45fb-8ccb-64e2fa56ada5"
 
-SurfaceBlackTentacles
-SurfaceWater
-SurfaceDeepWaterRunning
 
 new entry "KHB_MUSCULAR_HYDROSTATS"
 type "StatusData"
@@ -59,12 +56,36 @@ data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
 data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
 data "Icon" "TadpoleSuperPower_Repulsor_2"
 data "StackId" "KHB_MUSCULAR_HYDROSTATS"
-data "TickType" "EndTurn"
-data "BoostConditions" ""
-data "Boosts" "IF(IModifyTargetRadius(Override, 2)"
-data "Passives" "KHB_MuscularHydrostats_VulnApply"
-data "OnRemoveFunctors" ""
+data "Boosts" "UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative, 1.5))"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
+
+
+new entry "KHB_MUSCULAR_HYDROSTATS_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
+data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
+data "Icon" "TadpoleSuperPower_Repulsor_2"
+data "StackId" "KHB_MUSCULAR_HYDROSTATS_TECHNICAL"
+data "TickType" "OnTurn"
+data "TickFunctors" "IF(InSurface('SurfaceBlackTentacles')):ApplyStatus(KHB_MUSCULAR_HYDROSTATS, 100, 1)"
+data "Boosts" "StatusImmunity(BLACK_TENTACLES)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
+
+
+new entry "KHB_VASCULAR_HYDROPHILIA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
+data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
+data "Icon" "TadpoleSuperPower_Repulsor_2"
+data "StackId" "KHB_VASCULAR_HYDROPHILIA"
+data "TickType" "OnTurn;"
+data "TickFunctors" "IF(InSurface('SurfaceWater') or InSurface('SurfaceDeepWaterRunning')):RegainHitPoints(LevelMapValue(MartialArts))"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
 
 
 new entry "TAD_MIND_SANCTUARY_AURA"

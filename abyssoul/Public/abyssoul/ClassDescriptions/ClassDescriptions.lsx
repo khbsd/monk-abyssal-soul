@@ -6,10 +6,10 @@
             <children>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="KHB_wayOfHadalSoulDescription" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="KHB_wayOfHadalSoul" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="KHB_wayOfTentacleDescription" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="KHB_wayOfTentacle" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="HadalSoul"/>
+                    <attribute id="Name" type="FixedString" value="Tentacle"/>
                     <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
                     <attribute id="PrimaryAbility" type="uint8" value="5"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="8b67da74-a604-4dc5-bb2f-1d9d4e1decc3"/>
