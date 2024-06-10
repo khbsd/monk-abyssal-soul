@@ -11,9 +11,9 @@ data "SpellFail" "DealDamage(1d8+SpellCastingAbilityModifier,Cold,Magical)"
 data "TargetConditions" "Character() and not Ally()"
 data "Icon" "TadpoleSuperPower_MindBlast"
 // Mind Blast
-data "DisplayName" "h27282233g52efg40b3gb198ge7b6c0ac2147;1"
+data "DisplayName" "KHB_hypothermicHysteriaDisplayName;1"
 // Spew forth a conical wave of psychic energy and possibly <LSTag Type="Status" Tooltip="STUNNED
-data "Description" "hbf315656ga8a7g4c85g9da6ga8decf7fb1f5;4"
+data "Description" "KHB_hypothermicHysteriaDescription;4"
 data "DescriptionParams" "DealDamage(4d8+SpellCastingAbilityModifier,Psychic)"
 data "TooltipDamageList" "DealDamage(4d8+SpellCastingAbilityModifier,Psychic)"
 data "TooltipAttackSave" "Intelligence"

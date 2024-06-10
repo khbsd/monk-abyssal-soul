@@ -10,10 +10,10 @@ data "SpellFail" "DealDamage((2d4)/2, Psychic,Magical)"
 data "TargetConditions" "Character() and not Self()"
 data "Icon" "Spell_Conjuration_ArmsOfHadar"
 // Arms of Hadar
-data "DisplayName" "h88ad6961g68dcg4c78g9837g83b208729203;1"
+data "DisplayName" "KHB_grapplingTentaclesDisplayName;1"
 // Prevent targets from using reactions.
-data "Description" "haf3d56a6g890cg4b8agae89gcf7752a613a3;7"
-data "DescriptionParams" "DealDamage(2d4,Psychic)"
+data "Description" "KHB_grapplingTentaclesDescription;7"
+data "DescriptionParams" "DealDamage(2d4,Psychic);ApplyStatus(ARMS_OF_HADAR,100,1);Distance(4)"
 data "TooltipDamageList" "DealDamage(2d4,Psychic)"
 data "TooltipAttackSave" "Strength"
 data "TooltipStatusApply" "ApplyStatus(ARMS_OF_HADAR,100,1)"

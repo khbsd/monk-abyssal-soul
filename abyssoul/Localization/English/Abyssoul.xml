@@ -5,29 +5,45 @@
 
 
     <!-- Shouts -->
-    <content contentuid="KHB_lesserMindsDisplayName" version="1">Lesser Minds</content>
-    <content contentuid="KHB_lesserMindsShoutDescription" version="1">Your brain has grown ears, or at least that's what it feels like. You may wiggle them with a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;, casting &lt;b&gt;Detect Thoughts&lt;/b&gt; and granting yourself &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt; against creatures with lower &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; than you.</content>
+    <content contentuid="KHB_grapplingTentaclesDisplayName" version="1">Grappling Tentacles</content>
+    <content contentuid="KHB_grapplingTentaclesDescription" version="1">Your tentacled spirit bursts through the ground, covering it in squirming black tentacles and dealing [1] to enemies within [3], or half on a save.</content>
+
+
+    <!-- Zone Spells -->
+    <content contentuid="KHB_hypothermicHysteriaDisplayName" version="1">Hypothermic Hysteria</content>
+    <content contentuid="KHB_hypothermicHysteriaDescription" version="1">Spew forth a conical wave of chilling psychic energy and possibly &lt;LSTag Type="Status" Tooltip="FROZEN"&gt;Freeze&lt;/LSTag&gt; targets within.</content>
 
 
     <!-- Passives -->
     <content contentuid="KHB_UndertowDisplayName" version="1">Undertow</content>
     <content contentuid="KHB_UndertowDescription" version="1">Your strikes instill the chill and pressure of the deep. Your unarmed attacks deal an additional [1].</content>
-    <content contentuid="KHB_UndertowLv2Description" version="1">Your strikes instill the chill and pressure of the deep. Your unarmed attacks deal an additional [1], and you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Cold Damage.</content>
+
     <content contentuid="KHB_strangleMindDisplayName" version="1">Stranglemind</content>
-    <content contentuid="KHB_strangleMindDescription" version="1">Your unarmed attacks deal an additional [1].</content>
-    <content contentuid="KHB_strangleMindLv2Description" version="1">Your unarmed attacks deal an additional [1], and you gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Psychic Damage.</content>
+    <content contentuid="KHB_strangleMindDescription" version="1">Your strikes leave a mental dent. A dental, if you will. Your unarmed attacks deal an additional [1].</content>
     <content contentuid="KHB_strangleMindExtraDescription" version="1">&lt;i&gt;"The mind has to wrap around the neck."&lt;br&gt;&lt;br&gt;-Michael "Scranton Strangler" Scott&lt;/i&gt;</content>
+
     <content contentuid="KHB_alienIntellectDisplayName" version="1">Alien Intellect</content>
     <content contentuid="KHB_alienIntellectDescription" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
-    <content contentuid="KHB_alienIntellectLv2Description" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 11 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;.</content>
 
     <content contentuid="KHB_aphoticEyesDisplayName" version="1">Aphotic Eyes</content>
     <content contentuid="KHB_aphoticEyesDescription" version="1">Whoever coined the term "their eyes lit up" has never met you. You spent so long in the dark, your eyes absorb light and sound like a black hole. You gain the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures up to [1] away.</content>
     <content contentuid="KHB_aphoticEyesExtraDescription" version="1"></content>
-    <content contentuid="KHB_coldShockSyndromeDisplayName" version="1">Cold Shock Syndrome</content>
-    <content contentuid="KHB_coldShockSyndromeDescription" version="1">The hadal temperatures you're used to are cold enough to stop weaker landlubbers' hearts. When you bring a creature down to fewer than [2] &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
+
     <content contentuid="KHB_theBendsDisplayName" version="1">The Bends</content>
-    <content contentuid="KHB_theBendsDescription" version="1">not the radiohead album</content>
+    <content contentuid="KHB_theBendsDescription" version="1">Your strikes apply pressure that your targets' bodies can't handle. When dealing Psychic or Cold damage with your unarmed strikes, ignore enemies' &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_theBendsExtraDescription" version="1">not the radiohead album</content>
+
+    <content contentuid="KHB_lesserMindsDisplayName" version="1">Lesser Minds</content>
+    <content contentuid="KHB_lesserMindsDescription" version="1">Your brain has grown ears, or at least that's what it feels like. You gain &lt;b&gt;Detect Thoughts&lt;/b&gt; and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+
+    <!-- Statuses -->
+    <content contentuid="KHB_muscularHydrostatsDisplayName" version="1">Muscular Hydrostats</content>
+    <content contentuid="KHB_muscularHydrostatsDescription" version="1">When you start your turn standing in &gt;b&lt;Black Tentacles&gt;/b&lt;, your melee range increases by [i]</content>
+    <content contentuid="KHB_muscularHydrostatsExtraDescription" version="1">Get me out of here! I feel like I'm &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;pupating&lt;/LSTag&gt;!</content>
+
+    <content contentuid="KHB_vascularHydrophiliaDisplayName" version="1">Vascular Hydrophilia</content>
+    <content contentuid="KHB_vascularHydrophiliaDescription" version="1">When you start your turn standing in &gt;b&lt;Water&gt;/b&lt;, you regain [1].</content>
+
 
 
     <!-- Attacks -->

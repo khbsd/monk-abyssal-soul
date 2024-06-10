@@ -83,7 +83,7 @@ type "PassiveData"
 data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
 // Having spent so much time near or in an extreme environment, you've adapted and shifted your genes to match.
 //      - Muscular Hydrostats: These tentacles are your friends. If you start your turn in <BlackTentacles>, you gain 1m of melee range.
-//      - Hydrophilic: Water nourishes you and helps you keep your shape. If you start your turn <Water> or <DeepRunningWater>, you regain hit points equal to a roll of your Martial Arts die. If your health is full, you instead regain a ki point.
+//      - Vascular Hydrophilia: Water nourishes you and helps you keep your shape. If you start your turn in <Water> or <DeepRunningWater>, you regain hit points equal to a roll of your Martial Arts die. If your health is full, you instead regain a ki point.
 data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
 data "Icon" "TadpoleSuperPower_Repulsor_2"
 data "Properties" "Highlighted"
@@ -94,9 +94,9 @@ data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_TECHNICAL, 100, -1);Ap
 new entry "KHB_Hydrodynamics_Passive"
 type "PassiveData"
 // Hydrodynamics
-data "DisplayName" "KHB_Hydrodynamics_DisplayName;1"
+data "DisplayName" "KHB_HydrodynamicsDisplayName;1"
 // After dealing with the resistance of the water, air is nothing. You gain <Freedom of Movement>.
-data "Description" "KHB_Hydrodynamics_Description;2"
+data "Description" "KHB_HydrodynamicsDescription;2"
 data "Properties" "Highlighted"
 data "Icon" "Spell_Abjuration_FreedomOfMovement"
 data "FormatColor" "Water"
