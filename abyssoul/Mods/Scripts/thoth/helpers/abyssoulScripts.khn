@@ -5,11 +5,18 @@ function TargetIntelligenceGreaterThanSource(source, target)
     return ConditionResult(source.Intelligence < target.Intelligence)
 end
 
-function HasIntelligenceGreaterThanTarget(source, target)
-    target = target or context.Target
-    source  = source or context.Source
+function IsIntelligenceGreaterThanStrength()
+    return ConditionResult(context.Source.Intelligence >= context.Source.Strength)
+end
 
-    return ConditionResult(source.Intelligence > target.Intelligence)
+function HasIntelligenceGreaterThanTargetHP()
+    local target = context.Target
+    local source = context.Source
+
+    local hp = target.HP
+    local int = source.Intelligence
+
+    return ConditionResult(int >= hp)
 end
 
 function TargetIntelligenceGreaterThanStrength(source)
@@ -21,10 +28,10 @@ end
 function HasLessHPThanPlayerLevel(target, source)
     local target = target or context.Target
     local source = source or context.Source
-    local value = (source.Level * 2) + source.ProficiencyBonus
+    local value = (source.Level * 2)
     
-    if value < 24 then
-        value = 24
+    if value < 22 then
+        value = 22
     end
 
     return ConditionResult(target.HP < value)

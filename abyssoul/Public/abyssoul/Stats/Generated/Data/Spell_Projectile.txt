@@ -1,7 +1,7 @@
 new entry "KHB_cullTheWeak_Projectile"
 type "SpellData"
 data "SpellType" "Projectile"
-data "SpellProperties" "DealDamage(1d6 + CharismaModifier,Psychic)"
+data "SpellProperties" "DealDamage(1d6 + WisdomModifier, Psychic);GROUND:CreateSurface(3,3,Water)"
 data "ExplodeRadius" "4"
 data "TargetConditions" "Character() and Enemy()"
 data "Trajectories" "5ae6a22b-cca2-4712-aff5-06a02aacfda2"
