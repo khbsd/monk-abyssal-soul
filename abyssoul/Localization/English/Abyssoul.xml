@@ -17,9 +17,12 @@
     <!-- Passives -->
     <content contentuid="KHB_UndertowDisplayName" version="1">Undertow</content>
     <content contentuid="KHB_UndertowDescription" version="1">Your strikes instill the chill and pressure of the deep. Your unarmed attacks deal an additional [1].</content>
+    
+    <content contentuid="KHB_basalPaingliaDisplayName" version="1">Basal Painglia</content>
+    <content contentuid="KHB_basalPaingliaDescription" version="1">Your strikes leave a mental dent. A dental, if you will. Your unarmed attacks deal an additional [1].</content>
 
     <content contentuid="KHB_strangleMindDisplayName" version="1">Stranglemind</content>
-    <content contentuid="KHB_strangleMindDescription" version="1">Your strikes leave a mental dent. A dental, if you will. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="KHB_strangleMindDescription" version="1">When you bring a creature down to fewer &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; than your Intelligence &lt;LSTag Tooltip="Abilities"&gt;score&lt;/LSTag&gt;, it dies and all nearby creatures take [1].</content>
     <content contentuid="KHB_strangleMindExtraDescription" version="1">&lt;i&gt;"The mind has to wrap around the neck."&lt;br&gt;&lt;br&gt;-Michael "Scranton Strangler" Scott&lt;/i&gt;</content>
 
     <content contentuid="KHB_alienIntellectDisplayName" version="1">Alien Intellect</content>

@@ -8,16 +8,16 @@ data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;O
 data "BoostConditions" "IsIntelligenceGreaterThanStrength()"
 data "Boosts" "MonkWeaponAttackOverride();IF(CharacterLevelGreaterThan(6)):UnarmedMagicalProperty();"
 
-
-new entry "KHB_cullTheWeak_Passive"
+new entry "KHB_strangleMind_Passive"
 type "PassiveData"
-data "DisplayName" "h4c2ba204g19acg477cg98e9g1d755242996e;2"
-data "Description" "hfd385480ga7c4g4d30gbaffg29423289561e;7"
+data "DisplayName" "KHB_strangleMindDisplayName;2"
+data "Description" "KHB_strangleMindDescription;5"
+data "ExtraDescription" "KHB_strangleMindExtraDescription"
 data "DescriptionParams" "DealDamage(1d4,Psychic)"
 data "Icon" "TadpoleSuperPower_CullTheWeak"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultOn"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasLessHPThanPlayerLevel() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and Enemy() and not SpellId('KHB_cullTheWeak_Projectile')"
+data "Conditions" "HasIntelligenceGreaterThanTarget() and not IsKillingBlow() and TotalAttackDamageDoneGreaterThan(0) and Enemy() and not SpellId('KHB_cullTheWeak_Projectile')"
 data "StatsFunctors" "Kill();ApplyStatus(PASSIVE_CULL_THE_WEAK,100,1);CreateExplosion(KHB_cullTheWeak_Projectile)"
 data "ToggleGroup" "NonLethal"
 
@@ -42,11 +42,10 @@ data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4 + CharismaM
 data "ToggleGroup" "Manifestation"
 
 
-new entry "KHB_strangleMind_Passive"
+new entry "KHB_basalPainglia_Passive"
 type "PassiveData"
-data "DisplayName" "KHB_strangleMindDisplayName;2"
-data "Description" "KHB_strangleMindDescription;5"
-data "ExtraDescription" "KHB_strangleMindExtraDescription"
+data "DisplayName" "KHB_basalPaingliaDisplayName;2"
+data "Description" "KHB_basalPaingliaDescription;7"
 data "DescriptionParams" "DealDamage(1d4+CharismaModifier, Psychic)"
 data "Icon" "GenericIcon_DamageType_Psychic"
 data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
@@ -89,9 +88,9 @@ data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_TECHNICAL, 100, -1);Ap
 
 new entry "KHB_Hydrodynamics_Passive"
 type "PassiveData"
-data "DisplayName" "KHB_HydrodynamicsDisplayName;1"
+data "DisplayName" "KHB_hydrodynamicsDisplayName;1"
 // After dealing with the resistance of the water, air is nothing. You gain <Freedom of Movement>.
-data "Description" "KHB_HydrodynamicsDescription;2"
+data "Description" "KHB_hydrodynamicsDescription;2"
 data "Properties" "Highlighted"
 data "Icon" "Spell_Abjuration_FreedomOfMovement"
 data "FormatColor" "Water"

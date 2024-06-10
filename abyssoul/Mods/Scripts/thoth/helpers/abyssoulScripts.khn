@@ -2,6 +2,13 @@ function TargetIntelligenceGreaterThanSource(source, target)
     target = target or context.Target
     source  = source or context.Source
 
+    return ConditionResult(source.Intelligence < target.Intelligence)
+end
+
+function HasIntelligenceGreaterThanTarget(source, target)
+    target = target or context.Target
+    source  = source or context.Source
+
     return ConditionResult(source.Intelligence > target.Intelligence)
 end
 
