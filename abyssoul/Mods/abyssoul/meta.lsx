@@ -8,14 +8,14 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="khbsd" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSWString" value="Adds the Way of the Hadal Soul for the monk class." />
+          <attribute id="Description" type="LSWString" value="Adds the Way of the Tentacle for the monk class." />
           <attribute id="Folder" type="LSWString" value="abyssoul" />
           <attribute id="GMTemplate" type="FixedString" value="" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="FixedString" value="Way of the Hadal Soul" />
+          <attribute id="Name" type="FixedString" value="Way of the Tentacle" />
           <attribute id="NumPlayers" type="uint8" value="4" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
