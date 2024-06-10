@@ -79,13 +79,9 @@ data "Boosts" "Advantage(Skill, Perception)"
 
 new entry "KHB_HadalSpeciation"
 type "PassiveData"
-// Hadal Speciation
 data "DisplayName" "KHB_hadalSpeciationDisplayName;1"
-// Having spent so much time near or in an extreme environment, you've adapted and shifted your genes to match.
-//      - Muscular Hydrostats: These tentacles are your friends. If you start your turn in <BlackTentacles>, you gain 1m of melee range.
-//      - Vascular Hydrophilia: Water nourishes you and helps you keep your shape. If you start your turn in <Water> or <DeepRunningWater>, you regain hit points equal to a roll of your Martial Arts die. If your health is full, you instead regain a ki point.
 data "Description" "KHB_hadalSpeciationDescription;2"
-data "Icon" "TadpoleSuperPower_Repulsor_2"
+data "Icon" "PassiveFeature_HalfIllithid"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnEquip;OnCreate"
 data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_TECHNICAL, 100, -1);ApplyStatus(KHB_VASCULAR_HYDROPHILIA, 100, -1)"
@@ -93,7 +89,6 @@ data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_TECHNICAL, 100, -1);Ap
 
 new entry "KHB_Hydrodynamics_Passive"
 type "PassiveData"
-// Hydrodynamics
 data "DisplayName" "KHB_HydrodynamicsDisplayName;1"
 // After dealing with the resistance of the water, air is nothing. You gain <Freedom of Movement>.
 data "Description" "KHB_HydrodynamicsDescription;2"

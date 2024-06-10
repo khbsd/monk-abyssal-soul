@@ -37,16 +37,19 @@
     <content contentuid="KHB_lesserMindsDescription" version="1">Your brain has grown ears, or at least that's what it feels like. You gain &lt;b&gt;Detect Thoughts&lt;/b&gt; and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 
     <content contentuid="KHB_hadalSpeciationDisplayName" version="1">Hadal Speciation</content>
-    <content contentuid="KHB_hadalSpeciationDescription" version="1">Having spent so much time near or in an extreme environment, you've adapted and shifted your genes to match. You gain &lt;LSTag Type="Status" Tooltip="KHB_MUSCULAR_HYDROSTATS"&gt;Muscular Hydrostats&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="KHB_VASCULAR_HYDROPHILIA"&gt;Vascular Hydrophilia&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_hadalSpeciationDescription" version="1">Having spent so much time near or in an extreme environment, you've adapted and shifted your genes to match. You gain &lt;LSTag Type="Status" Tooltip="KHB_MUSCULAR_HYDROSTATS" &gt;Muscular Hydrostats&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="KHB_VASCULAR_HYDROPHILIA" &gt;Vascular Hydrophilia&lt;/LSTag&gt;.</content>
+
+    <content contentuid="KHB_hydrodynamicsDisplayName" version="1">Hydrodynamics</content>
+    <content contentuid="KHB_hydrodynamicsDescription" version="1">After dealing with the resistance of the water, air is nothing. You gain &lt;LSTag Type="Status" Tooltip="FREEDOM_OF_MOVEMENT"&gt;Freedom of Movement&lt;/LSTag&gt;.</content>
 
 
     <!-- Statuses -->
     <content contentuid="KHB_muscularHydrostatsDisplayName" version="1">Muscular Hydrostats</content>
-    <content contentuid="KHB_muscularHydrostatsDescription" version="1">When you start your turn standing in &gt;b&lt;Black Tentacles&gt;/b&lt;, your melee range increases by [i]</content>
+    <content contentuid="KHB_muscularHydrostatsDescription" version="1">When you start your turn standing in &lt;b&gt;Black Tentacles&lt;/b&gt;, your melee range increases by [1].</content>
     <content contentuid="KHB_muscularHydrostatsExtraDescription" version="1">Get me out of here! I feel like I'm &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;pupating&lt;/LSTag&gt;!</content>
 
     <content contentuid="KHB_vascularHydrophiliaDisplayName" version="1">Vascular Hydrophilia</content>
-    <content contentuid="KHB_vascularHydrophiliaDescription" version="1">When you start your turn standing in &gt;b&lt;Water&gt;/b&lt; and have less than full hit points, you regain [1]. If your hit points are full, you regain a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
+    <content contentuid="KHB_vascularHydrophiliaDescription" version="1">When you start your turn standing in &lt;b&gt;Water&lt;/b&gt; and have less than full hit points, you regain [1]. If your hit points are full, you regain a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
 
 
 
