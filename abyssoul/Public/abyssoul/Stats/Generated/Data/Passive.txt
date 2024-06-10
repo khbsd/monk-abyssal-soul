@@ -6,9 +6,7 @@ data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
 data "Properties" "Highlighted"
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
 data "BoostConditions" "IsIntelligenceGreaterThanStrength()"
-data "Boosts" "MonkWeaponAttackOverride();IF(CharacterLevelGreaterThan(5)):UnarmedMagicalProperty();"
-data "StatsFunctorContext" "OnDamage"
-data "StatsFunctors" "GROUND:SurfaceChange(Freeze);GROUND:CreateSurface(2, 2, WaterFrozen)"
+data "Boosts" "MonkWeaponAttackOverride();IF(CharacterLevelGreaterThan(6)):UnarmedMagicalProperty();"
 
 
 new entry "KHB_cullTheWeak_Passive"
@@ -41,7 +39,7 @@ data "Description" "KHB_UndertowDescription;5"
 data "DescriptionParams" "DealDamage(1d4+CharismaModifier, Cold)"
 data "Icon" "GenericIcon_DamageType_Cold"
 data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
-data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+CharismaModifier, Cold);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative, 1))"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+CharismaModifier, Cold)"
 data "ToggleGroup" "Manifestation"
 
 
@@ -53,7 +51,7 @@ data "ExtraDescription" "KHB_strangleMindExtraDescription"
 data "DescriptionParams" "DealDamage(1d4+CharismaModifier, Psychic)"
 data "Icon" "GenericIcon_DamageType_Psychic"
 data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
-data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+CharismaModifier, Psychic);UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Multiplicative, 1))"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(1d4+CharismaModifier, Psychic);"
 data "ToggleGroup" "Manifestation"
 
 
@@ -65,15 +63,7 @@ data "Icon" "Spell_IntellectDevourer_DevourIntellect"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not HasShieldEquipped(context.Source) and not WearingArmor(context.Source)"
-data "Boosts" "ACOverrideFormula(10, true, Dexterity, Intelligence);Resistance(Cold, Resistant);Resistance(Psychic, Resistant)"
-
-
-new entry "KHB_LesserMinds_Advantage"
-type "PassiveData"
-data "DisplayName" "KHB_lesserMindsDisplayName;1"
-data "Description" "KHB_lesserMindsPassiveDescription;2"
-data "BoostConditions" "TargetIntelligenceGreaterThanSource()"
-data "Boosts" "Advantage(Skill, Insight)"
+data "Boosts" "ACOverrideFormula(10, true, Dexterity, Intelligence);Resistance(Cold, Resistant);Resistance(Psychic, Resistant);Advantage(Ability, Intelligence)"
 
 
 new entry "KHB_AphoticEyes_Passive"
@@ -96,18 +86,6 @@ data "Icon" "TadpoleSuperPower_Repulsor_2"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnEquip;OnCreate"
 data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_TECHNICAL, 100, -1);ApplyStatus(KHB_VASCULAR_HYDROPHILIA, 100, -1)"
-data "Boosts" "StatusImmunity(SG_DifficultTerrain);ActionResourcePreventReduction(Movement)"
-
-
-new entry "KHB_MuscularHydrostats_FreezeApply"
-type "PassiveData"
-data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
-data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
-data "Icon" "TadpoleSuperPower_Repulsor_2"
-data "Properties" "Highlighted"
-data "Conditions" "not IsMiss() and Enemy() and IsMeleeUnarmedAttack()"
-data "StatsFunctorContext" "OnAttack"
-data "StatsFunctors" "ApplyStatus(FROZEN, 100, 2);"
 
 
 new entry "KHB_Hydrodynamics_Passive"
@@ -134,23 +112,18 @@ type "PassiveData"
 data "Properties" "Hidden"
 data "Boosts" "UnlockSpell(KHB_Target_MadnessAndMayhem)"
 
-new entry "KHB_AURA_OF_DEPTHS_Unlock"
-type "PassiveData"
-data "Properties" "Hidden"
-data "Boosts" "UnlockSpell(KHB_Shout_AuraOfDepths)"
-
 new entry "KHB_Levitation_Unlock"
 type "PassiveData"
 data "Properties" "Hidden"
 data "Boosts" "UnlockSpell(KHB_Levitation_Projectile)"
 
-new entry "KHB_MuscularHydrostats_Unlock"
-type "PassiveData"
-data "Properties" "Hidden"
-data "Boosts" "UnlockSpell(KHB_Shout_MuscularHydrostats)"
-
 new entry "KHB_Shout_GrapplingTentacles_Unlock"
 type "PassiveData"
 data "Properties" "Hidden"
-data "Boosts" "UnlockSpell(KHB_Shout_GrapplingTentacles);UnlockSpell(KHB_Shout_Water)"
+data "Boosts" "UnlockSpell(KHB_Shout_GrapplingTentacles)"
+
+new entry "KHB_Zone_HypothermicHysteria_Unlock"
+type "PassiveData"
+data "Properties" "Hidden"
+data "Boosts" "UnlockSpell(KHB_Zone_HypothermicHysteria)"
  
