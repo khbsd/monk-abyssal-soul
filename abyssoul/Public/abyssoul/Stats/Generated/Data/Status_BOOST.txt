@@ -11,7 +11,7 @@ data "AuraStatuses" "TARGET:IF(not HasAnyStatus({'SG_Unconscious','SG_Incapacita
 data "AuraFlags" "CanAffectInvisibleItems;AIIgnoreOnSelf"
 data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('SEE_INVISIBILITY')):ApplyStatus(AI_HELPER_SEEINVISIBILITY,100,3)"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "StatusEffect" "d8452a11-7c66-45fb-8ccb-64e2fa56ada5"
+// data "StatusEffect" "d8452a11-7c66-45fb-8ccb-64e2fa56ada5"
 
 
 new entry "KHB_MUSCULAR_HYDROSTATS"
@@ -37,6 +37,7 @@ data "TickType" "OnTurn"
 data "TickFunctors" "IF(InSurface('SurfaceBlackTentacles')):ApplyStatus(KHB_MUSCULAR_HYDROSTATS, 100, 1)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
+
 
 new entry "KHB_VASCULAR_HYDROPHILIA"
 type "StatusData"

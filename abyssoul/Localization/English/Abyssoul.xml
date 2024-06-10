@@ -7,12 +7,6 @@
     <!-- Shouts -->
     <content contentuid="KHB_lesserMindsDisplayName" version="1">Lesser Minds</content>
     <content contentuid="KHB_lesserMindsShoutDescription" version="1">Your brain has grown ears, or at least that's what it feels like. You may wiggle them with a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;, casting &lt;b&gt;Detect Thoughts&lt;/b&gt; and granting yourself &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt; against creatures with lower &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; than you.</content>
-    <content contentuid="KHB_lesserMindsPassiveDescription" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt; against creatures with lower &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; than you.</content>
-    <content contentuid="KHB_lesserMindsDisplayName" version="1">Lesser Minds</content>
-    <content contentuid="KHB_lesserMindsShoutDescription" version="1">Your brain has grown ears, or at least that's what it feels like. You may wiggle them with a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;, casting &lt;b&gt;Detect Thoughts&lt;/b&gt; and granting yourself &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="SkillCheck"&gt;Checks&lt;/LSTag&gt; against creatures with lower &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; than you.</content>
-    <content contentuid="KHB_depthAuraDisplayName" version="1">Aura of the Depths</content>
-    <content contentuid="KHB_depthAuraDescription" version="1">"It's like a smell, but in your head." That's how people describe your deeply (get it?) unsettling aura. Creatures other than you within [1] that you are not allied with become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic Damage.</content>
-    <content contentuid="KHB_depthAuraEffectDescription" version="1">This creature has had its mental defences reduced, and is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic Damage.</content>
 
 
     <!-- Passives -->
@@ -27,8 +21,6 @@
     <content contentuid="KHB_alienIntellectDescription" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;, and you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic and Cold Damage.</content>
     <content contentuid="KHB_alienIntellectLv2Description" version="1">You are forever touched by the inscrutable depths, making it hard for normies to comprehend your movements and physical form. Your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 11 plus your Intelligence and Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt;.</content>
 
-    <content contentuid="KHB_sonarReachDisplayName" version="1">Sonar's Reach</content>
-    <content contentuid="KHB_sonarReachDescription" version="1">Your body is able to move farther and more efficiently due to its enhanced sonar-like proprioception, increasing your Unarmed Melee Attack range by [1].</content>
     <content contentuid="KHB_aphoticEyesDisplayName" version="1">Aphotic Eyes</content>
     <content contentuid="KHB_aphoticEyesDescription" version="1">Whoever coined the term "their eyes lit up" has never met you. You spent so long in the dark, your eyes absorb light and sound like a black hole. You gain the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures up to [1] away.</content>
     <content contentuid="KHB_aphoticEyesExtraDescription" version="1"></content>
@@ -39,8 +31,7 @@
 
 
     <!-- Attacks -->
-    <content contentuid="KHB_madnessAndMayhemDisplayName" version="1">Flurry of Madness and Mayhem</content>
-    <content contentuid="KHB_madnessAndMayhemDescription" version="1">Punch twice in quick succession, and let your unsettling aura possibly inflict &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; in your target.</content>
+
     
 
 
