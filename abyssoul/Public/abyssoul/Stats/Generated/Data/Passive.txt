@@ -86,6 +86,7 @@ data "StatsFunctorContext" "OnEquip;OnCreate"
 data "StatsFunctors" "ApplyStatus(KHB_MUSCULAR_HYDROSTATS_TECHNICAL, 100, -1);ApplyStatus(KHB_VASCULAR_HYDROPHILIA, 100, -1)"
 
 
+// needs to be attached to the armor set
 new entry "KHB_Hydrodynamics_Passive"
 type "PassiveData"
 data "DisplayName" "KHB_hydrodynamicsDisplayName;1"
@@ -95,6 +96,7 @@ data "Properties" "Highlighted"
 data "Icon" "Spell_Abjuration_FreedomOfMovement"
 data "FormatColor" "Water"
 data "StackId" "FREEDOM_OF_MOVEMENT"
+data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)"
 data "Boosts" "StatusImmunity(SG_Paralyzed);StatusImmunity(SG_Restrained);StatusImmunity(SG_DifficultTerrain);ActionResourcePreventReduction(Movement)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "ac4aaa41-0e86-4bb9-b8b7-34cb619ea86c"
