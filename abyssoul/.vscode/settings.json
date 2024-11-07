@@ -4,7 +4,7 @@
     "bg3ModHelper.hoverShowPath": true,
     "bg3ModHelper.maxCacheSize": 1000,
     "bg3ModHelper.rootModPath": "w:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\abyssoul\\abyssoul",
-    "bg3ModHelper.modDestPath": "C:\\Users\\atoka\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+    "bg3ModHelper.modDestPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\abyssoul\\abyssoul\\.pak",
     "bg3ModHelper.lslibPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
     "bg3ModHelper.autoLaunchOnPack": false,
     "bg3ModHelper.zipOnPack": false,
